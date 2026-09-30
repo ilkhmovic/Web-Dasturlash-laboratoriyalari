@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>my site</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 295px 545px 230px;
+            gap: 32px;
+            margin: 30px 5%;
+        }
+
+        .box {
+            border: 3px solid black;
+            padding: 5px;
+        }
+
+        /* Chap taraf */
+        .headings {
+            height: 585px;
+        }
+
+        .headings h1 {
+            font-size: 50px;
+            margin: 45px 0;
+        }
+
+        .headings h2 {
+            font-size: 35px;
+            margin: 45px 0;
+        }
+
+        .headings h3 {
+            font-size: 30px;
+            margin: 45px 0;
+        }
+
+        .headings h4 {
+            font-size: 25px;
+            margin: 45px 0;
+        }
+
+        .headings h5 {
+            font-size: 20px;
+            margin: 45px 0;
+        }
+
+        .headings h6 {
+            font-size: 17px;
+            margin: 45px 0;
+        }
+
+        .paragraph {
+            margin-top: 35px;
+            height: 95px;
+            box-sizing: border-box;
+            font-size: 28px;
+            padding-top: 25px;
+        }
+
+        /* O'rta qism */
+        .list-box {
+            height: 290px;
+            box-sizing: border-box;
+        }
+
+        .list-box h1 {
+            font-size: 40px;
+            margin: 35px 0;
+            white-space: nowrap;
+        }
+
+        .list-box ul,
+        .list-box ol {
+            font-size: 30px;
+            margin-left: 35px;
+        }
+
+        /* O'ng qism */
+        .side-box {
+            height: 115px;
+            box-sizing: border-box;
+            font-size: 28px;
+            padding-top: 35px;
+        }
+
+        .side-box + .side-box {
+            margin-top: 32px;
+        }
+        .shakllar {
+            width: 700px;
+            height: 500px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .yuqori-kok {
+            width: 650px;
+            height: 45px;
+            background: #008fe5;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            transform: skewX(-25deg);
+        }
+
+        .qizil-shakl {
+            width: 120px;
+            height: 215px;
+            background: #ff493d;
+            position: absolute;
+            top: 130px;
+            left: 90px;
+        }
+
+        .yashil-shakl {
+            width: 215px;
+            height: 105px;
+            background: #19d61c;
+            position: absolute;
+            top: 135px;
+            left: 230px;
+        }
+
+        .pastki-kok {
+            width: 205px;
+            height: 100px;
+            background: #075de0;
+            position: absolute;
+            top: 245px;
+            left: 225px;
+            transform: skewX(-3deg);
+        }
+
+        .kok-ramka {
+            width: 245px;
+            height: 90px;
+            border: 12px solid #008fe5;
+            border-radius: 8px;
+            position: absolute;
+            top: 190px;
+            left: 175px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p>HTML - HyperText Markup Language</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<br>
+<br>
+<br>
+<p>Paragraph</p>
+<p>Another Paragraph</p>
+<p>HTML paragraph or HTML p tag is used to define a paragraph in a web page </p>
+<br><br><br>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h5>Heading 5</h5>
+<p>paragraph</p>
+<p>This is <b>bold!</b></p>
+<br><br><br>
+<h1>An Unordered HTMl List</h1>
+<ul>
+<li>list item 1</li>
+<li>list item 2</li>
+<li>list item 3</li>
+</ul>
+<br><br><br>
+<h1>An unordered html list</h1>
+<ol>
+    <li>list item 1</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
+</ol>
+<br><br><br>
+<h1>LINKS</h1>
+<a href="https://www.w3schools.com/">w3schools.com</a><br><br><br>
+
+<img  src="./Без названия.jfif" alt="rasm yoq">
+
+<h1>HTML formating elements</h1>
+<b>bold text</b>
+<p>important text</p>
+<sup></sup>
+<h1>Table</h1>
+<table>
+<th> First name</th>
+<th>Last Name </th>
+<th>Email Address</th><tr></tr>
+<td>Doston</td>
+<td>Amonov</td>
+<td>inbox@html</td>
+<tr>
+<td>Abdulloh</td>
+<td>Fayozov</td>
+<td>Abdulloh@gmail.com</td>
+</table>
+
+<br><br><br>
+
+<h1>Personal Informations</h1>
+<form action="" method="get">
+    <p>username <input type="text" placeholder="write your username:"></p>
+    <p>password <input type="password" placeholder="write your password"></p>
+    <p>email <input type="email" placeholder="write your email:"></p>
+</form>
+<br><br><br>
+<h1>Operating Systems</h1>
+<form action="" method="post">
+    <p><input type="radio" name="windows" id="win">windows</p>
+    <p><input type="radio" name="windows" id="lin">linux</p>
+    <p><input type="radio" name="windows" id="mac">mac</p>
+</form>
+
+<br><br><br>
+<h1>Skills</h1>
+<form action="" method="get">
+    <p><input type="checkbox" name="cek" id="1">HTML</p>
+    <p><input type="checkbox" name="cek" id="2">CSS</p>
+    <p><input type="checkbox" name="cek" id="3">JAVASCRIPT</p>
+</form>
+<h1>Table</h1>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+        </tr>
+        <tr>
+            <td>Doston</td>
+            <td>Amonov</td>
+            <td>amonovdoston03@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Avaz</td>
+            <td>Istamov</td>
+            <td>avaz@gmail.com</td>
+        </tr>
+    </table>
+    <div class="container">
+
+    <!-- Chap qism -->
+    <div>
+        <div class="box headings">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div>
+
+        <div class="box paragraph">
+            Paragraph
+        </div>
+    </div>
+
+
+    <!-- O'rta qism -->
+    <div>
+
+        <div class="box list-box">
+            <h1>An unordered HTML list</h1>
+
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ul>
+        </div>
+
+        <div class="box list-box" style="margin-top: 35px;">
+            <h1>An ordered HTML list</h1>
+
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ol>
+        </div>
+
+    </div>
+
+
+    <!-- O'ng qism -->
+    <div>
+        <div class="box side-box">
+            HTML <sub>subscript</sub>
+        </div>
+
+        <div class="box side-box">
+            HTML <sup>superscript</sup>
+        </div>
+    </div>
+
+</div>
+
+<div class="shakllar">
+
+        <div class="yuqori-kok"></div>
+
+        <div class="qizil-shakl"></div>
+
+        <div class="yashil-shakl"></div>
+
+        <div class="pastki-kok"></div>
+
+        <div class="kok-ramka"></div>
+
+    </div>
+</body>
+</html>
